@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0;
+
+}
+body{
+    background: url("img/b1.jpg")  ;
+    background-size:100% 100%;
+    /*background-repeat: no-repeat;*/
+    /*background-size: auto;*/
+}
+.container{
+    width: 960px;
+    height: 450px;
+    margin: 30px auto;
+    position: relative;
+}
+.pic{
+    width: 160px
+}
+
+.container img:hover{
+    box-shadow: 35px 35px 35px rgba(50,50,50,0.8);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 1;/*代表图片层级，将其设置为最上面的图层*/
+}
+
+.container img{
+    border-radius: 60px;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 15px 15px 15px rgba(50,50,50,0.99);
+    position: absolute;
+    /*绝对定位--利用Left可以手动调整照片位置*/
+    /*加入动画效果*/
+    transition: all 1s ease-in;
+}
+
+.pic1{
+    transform: rotate(20deg);
+    top:-20px;
+    right:170px;
+    
+}
+.pic2{
+     left: 170px;
+     top: -20px;
+     transform: rotate(-20deg);
+}
+.pic3{
+    top: 230px;
+    right: -60px;
+    transform: rotate(10deg);
+}
+.pic4{
+    top: 10px;
+    left: 300px;
+    transform: rotate(-10deg);
+}
+.pic5{
+
+    right:-30px;
+    top: 110px;
+    transform: rotate(-7deg);
+}
+.pic6{
+    left: 50px;
+    top: 20px;
+    transform: rotate(-10deg);
+}
+.pic7{
+    right:50px;
+    top: 20px;
+    transform: rotate(20deg);
+}
+.pic8{
+
+    top:110px;
+    left:-30px;
+    transform: rotate(7deg);
+}
+.pic9{
+    top: 10px;
+    right: 260px;
+    transform: rotate(10deg);
+}
+.pic10{
+    left: 400px;
+    top:100px;
+    transform: rotate(-5deg);
+}
+.pic11{
+    left: 400px;
+    top: 170px;
+    transform: rotate(-5deg);
+}
+.pic12{
+    right: 120px;
+    top: 45px;
+    transform: rotate(-5deg);
+}
+.pic13{
+    left: 530px;
+    top:120px;
+    transform: rotate(15deg);
+}
+.pic14{
+    top: -250px;
+    left: -20px;
+    transform: rotate(15deg);
+}
+.pic15{
+    left: 40px;
+    top: -150px;
+    transform: rotate(10deg);
+}
+.pic16{
+    right:-20px;
+    top: -150px;
+    transform: rotate(10deg);
+}
+.pic17{
+    left: 100px;
+    top:-40px;
+    transform: rotate(25deg);
+
+}
+.pic18{
+    top: 110px;
+    left: 280px;
+    transform: rotate(10deg);
+}
+.pic19{
+    left: 180px;
+     top:35px;
+     transform: rotate(15deg);
+}.pic20 {
+     right:40px;
+     top: -40px;
+     transform: rotate(20deg);
+ }
+
+
+
+
+ a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+	position: absolute;
+
+  }
+  
+  a:hover {
+	background-color: #b6b5b5;
+	color: black;
+  }
+  
+  .previous {
+	background-color: #f1f1f1;
+	color: black;
+	text-align:center;
+	width: 80px;
+    height:25px ;
+	right:110px;
+	bottom:-250px;
+  }
+  
+  .next {
+	background-color: #4CAF50;
+	color: white;
+	text-align:center;
+	width: 80px;
+    height:25px ;
+	right:0%;
+	bottom: -250px;
+  }
+  
+  .round {
+	border-radius: 50%;
+  } 
